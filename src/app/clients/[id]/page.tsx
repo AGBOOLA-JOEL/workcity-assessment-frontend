@@ -161,8 +161,8 @@ export default function ClientProfilePage() {
       <ProtectedRoute>
         <div className="space-y-6">
           {/* Header */}
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
+          <div className="flex items-center justify-between flex-col lg:flex-row ">
+            <div className="flex items-center space-x-4 mb-3 lg:mb-0">
               <Link href="/clients">
                 <Button variant="outline" size="sm">
                   <ArrowLeft className="h-4 w-4 mr-2" />
